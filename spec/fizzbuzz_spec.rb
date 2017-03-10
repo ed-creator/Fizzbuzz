@@ -14,7 +14,11 @@ describe 'fizzbuzz' do
   end
 
   it "returns 'fizz' when passed a number divisible by 3" do
-    expect(fizzbuzz(33).to eq 'fizz')
+    expect(fizzbuzz(33)).to eq 'fizz'
+  end
+
+  it "returns 'buzz' when passed a number divisible by 5" do
+    expect(fizzbuzz(40)).to eq 'buzz'
   end
 
 end
