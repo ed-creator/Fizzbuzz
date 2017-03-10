@@ -21,4 +21,8 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(40)).to eq 'buzz'
   end
 
+  it "returns 'fizzbuzz' when passed a number divisible by 15" do
+    expect(fizzbuzz(60)).to eq 'fizzbuzz'
+  end
+
 end
